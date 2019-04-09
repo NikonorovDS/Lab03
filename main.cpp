@@ -141,7 +141,7 @@ const auto BIN_HEIGHT = 30;
     for (size_t bin : bins) {
     const double bin_width = 10 * bin;
         svg_text(TEXT_LEFT, top + TEXT_BASELINE, to_string(bin));
-        svg_rect(TEXT_WIDTH, top, bin_width, BIN_HEIGHT,"red","blue");
+        svg_rect(TEXT_WIDTH, top, bin_width, BIN_HEIGHT,"#03E27F","#FD5ED4");
         top += BIN_HEIGHT;
     }
     svg_end();
